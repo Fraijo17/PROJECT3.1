@@ -1,0 +1,23 @@
+.light-bg {
+    background-color: #76bfe9;
+}
+
+
+.btn-soft {
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.btn-soft.light {
+    box-shadow: var(--shadow-normal-light);
+    color: #000;
+}
+
+.btn-soft.light:hover .btn-soft.light:focus {
+    box-shadow: var(--shadow-inset-light);
+}
+
+/* Sharp Contrast */
+

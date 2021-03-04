@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Water Tracker</title>
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Bootstrap Jquery -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <!--stylesheet-->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Water Tracker</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="./logs.html">Logs</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+
+  
+
+  <section class="closer-look light-bg py-5">
+    <div class="container">
+      <div class="row align-items-md-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <h1 class="section-heading">Track your water consumption</h1>
+          <p class="my-4"></p>
+
+          
+          <!-- Search Buttons -->
+            <button class="text-uppercase d-inline-block btn-soft light" data-toggle="modal" data-target="#modal"
+              id='waterBtn'>Log Water Consumption</button>
+            </form>
+
+        </div>
+        <div class="col-md-6 text-center">
+          <img class="img-fluid d-md-block ml-md-auto"
+            src="https://useruploads.socratic.org/HY4dPvhTTWmK0LkADVO8_H2O_Lewis_Structure_PNG.png"
+            alt="h20">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sharp-contrast  py-5">
+    <div class="container">
+      <div class="row align-items-md-center">
+
+        <div class="col-md-6 text-center">
+          <img class="img-fluid d-md-block mr-md-auto"
+            src="https://www.mcgill.ca/oss/files/oss/styles/hd/public/thirsty-man-937395.jpg?itok=bV0r_Bo8&timestamp=1527533948"
+            alt="Water drop">
+        </div>
+
+        <!--h2o defintion-->
+
+        <div class="col-md-6 mb-4 mb-md-0">
+          <h1 class="section-heading">H2O</h1>
+          <p class="my-4">Water is an inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere and the fluids of all known living organisms.
+               It is vital for all known forms of life, even though it provides no calories or organic nutrients.</p>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!--Quotes and context-->
+  <section class="features  light-bg py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mb-4">
+          <div class="features-item">
+            <div class="item-icon">
+            </div>
+            <div class="item-text">
+              <h2>It lubricates the joints</h2>
+              <p>“Cartilage, found in joints and the disks of the spine, contains around 80 percent water. 
+                  Long-term dehydration can reduce the joints’ shock-absorbing ability, leading to joint pain.”</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mb-4">
+          <div class="features-item">
+            <div class="item-icon">
+            </div>
+            <div class="item-text">
+              <h2> It forms saliva and mucus</h2>
+              <p>“Saliva helps us digest our food and keeps the mouth, nose, and eyes moist. This prevents friction and damage.
+                   Drinking water also keeps the mouth clean. Consumed instead of sweetened beverages, it can also reduce tooth decay.”</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div class="features-item">
+            <div class="item-icon">
+            </div>
+            <div class="item-text">
+              <h2>It cushions the brain, spinal cord, and other sensitive tissues</h2>
+              <p>“Saliva helps us digest our food and keeps the mouth, nose, and eyes moist. This prevents friction and damage. 
+                  Drinking water also keeps the mouth clean. Consumed instead of sweetened beverages, it can also reduce tooth decay.”
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6">
+          <div class="features-item">
+            <div class="item-icon">
+            </div>
+            <div class="item-text">
+              <h2>The digestive system depends on it</h2>
+              <p>“The bowel needs water to work properly. Dehydration can lead to digestive problems, constipation, and an overly acidic stomach.
+                   This increases the risk of heartburn and stomach ulcers.”</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+
+
+
+  <!--App Summary-->
+  <footer class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6">
+          <h5 class="nav-brand">Water <span>Tracker</span></h5>
+          <p>Develop better hydration habits with this app. 
+              It’ll calculate how much water your body needs every day, log your intake, and remind you to stay on track. </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Modal to log water consumption -->
+  <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLabel">Water</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Put all search functions here -->
+          <div>
+            <p id="inputLabel"></p>
+            <input type="text" id="searchBox">
+          </div>
+          <button class="text-uppercase d-inline-block btn-soft light" id='searchBtn'>Log Water Consumption</button>
+        </div>
+        <!-- Search Results go here -->
+        <div id="populateListHere"></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
