@@ -1,9 +1,14 @@
+const apiKey = process.env.API_KEY;
 const http = require('http');
 const express = require('express');
 const path = require('path');
 const app = express();
 app.use(express.json());
 app.use(express.static("express"));
+
+require("dotenv").config();
+
+
 // default URL for website
 app.use('/', function(req,res){
     res.sendFile(path.join(__dirname+'/express/index.html'));
