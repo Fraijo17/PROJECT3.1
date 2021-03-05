@@ -48,6 +48,9 @@
           <p class="my-4"></p>
 
           
+
+
+          
           <!-- Search Buttons -->
             <button class="text-uppercase d-inline-block btn-soft light" data-toggle="modal" data-target="#modal"
               id='waterBtn'>Log Water Consumption</button>
@@ -80,6 +83,7 @@
           <p class="my-4">Water is an inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere and the fluids of all known living organisms.
                It is vital for all known forms of life, even though it provides no calories or organic nutrients.</p>
           
+               <div id="like_button_container"></div>
         </div>
       </div>
     </div>
@@ -146,9 +150,6 @@
   </section>
 
   
-
-
-
   <!--App Summary-->
   <footer class="py-5">
     <div class="container">
@@ -188,8 +189,13 @@
     </div>
   </div>
 
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 
-  
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+
+  <!-- Load our JavaScript. -->
   <script src="script.js"></script>
 
 
